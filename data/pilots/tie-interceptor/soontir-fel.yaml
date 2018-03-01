@@ -1,0 +1,27 @@
+---
+name: Sontir Fel
+unique: yes
+ship: TIE Interceptor
+faction: empire
+stats:
+  level: 9
+  attack: 3
+  agility: 3
+  shield: 3
+  hull: 0
+cost: 27
+upgrades:
+  - astromech
+  - torpedo
+  - ept
+tags:
+  - evade
+  - focus
+actions:
+  - target-lock
+  - focus
+description:
+  - When you receive a stress token, you may assign 1 focus token to your ship.
+included:
+  core-set: 1
+...

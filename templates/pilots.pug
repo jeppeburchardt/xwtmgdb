@@ -1,0 +1,26 @@
+extends layout.pug
+
+block content
+  article
+    h1(class=unique ? 'unique' : 'common')= name
+      span= ship
+    section#stats
+      ul.stats
+        each val, key in stats
+          li(class=key)= val
+      ul.actions
+        each a in actions
+          li(class=a)= a
+    section#description
+      each d in description
+        p!= icons(d)
+    section#squad
+      ul
+        li.cost= cost
+        each u in upgrades
+          li.update-slot(class=u)= u
+    section#included
+      ul
+        each i in included
+          li
+            a(href='#ad')= i

@@ -1,0 +1,12 @@
+---
+name: Engine Upgrade
+unique: no
+cost: 3
+tags:
+  - boost
+description:
+  - Your action bar gains the boost action icon
+included:
+  millennium-falcon-expansion: 2
+  hounds-tooth-expansion: 1
+...

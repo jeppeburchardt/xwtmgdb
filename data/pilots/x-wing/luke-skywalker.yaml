@@ -1,0 +1,27 @@
+---
+name: Luke Skywalker
+unique: yes
+ship: X-Wing
+faction: rebels
+stats:
+  level: 8
+  attack: 3
+  agility: 2
+  shield: 3
+  hull: 2
+cost: 28
+upgrades:
+  - astromech
+  - torpedo
+  - ept
+tags:
+  - evade
+  - focus
+actions:
+  - target-lock
+  - focus
+description:
+  - When defending, you may change 1 of your focus results to a evade result.
+included:
+  core-set: 1
+...

@@ -1,0 +1,8 @@
+extends layout.pug
+
+block content
+  article
+    h1= name
+    div.cost= cost
+    each d in description
+      p!= icons(d)

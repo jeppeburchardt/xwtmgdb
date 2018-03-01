@@ -1,0 +1,23 @@
+---
+name: Plasma Torpedoes
+unique: no
+attack: 4
+min-range: 2
+max-range: 3
+spend: target-lock
+type: attack
+single: yes
+cost: 3
+tags:
+  - shield
+  - target-lock
+upgrades:
+  torpedo: 1
+included:
+  k-wing-expansion: 1
+  tie-punisher-expansion: 1
+  punishing-one-expansion: 1
+description:
+  - Spend your target lock and discard this card to perform this attack.
+  - If this attack hits, after dealing damage, remove 1 shield token from the defender.
+...

@@ -1,0 +1,26 @@
+---
+name: Wedge Antillies
+unique: yes
+ship: X-Wing
+faction: rebels
+stats:
+  level: 9
+  attack: 3
+  agility: 2
+  shield: 3
+  hull: 2
+cost: 29
+upgrades:
+  - astromech
+  - torpedo
+  - ept
+tags:
+  - defender-agility
+actions:
+  - target-lock
+  - focus
+description:
+  - When attacking, reduce the defender's agility value by 1 (to a minimum of "0").
+included:
+  x-wing-expansion: 1
+...
